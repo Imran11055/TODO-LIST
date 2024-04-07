@@ -28,3 +28,15 @@ todos.push(addTask.todo);
 condition = addTask.addmore
 console.log(todos)
 }
+let removeTdoo = await inquirer.prompt (
+    [
+        {
+            name: "todo",
+            message: "Do you want to remove any item from list",
+            type: "number",
+
+        }
+    ]
+);
+todos.splice(removeTdoo.todo,1);
+console.log (chalk.bgGray(`Yours Final Todo List is ${todos}`));

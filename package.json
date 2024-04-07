@@ -1,6 +1,6 @@
 {
   "name": "smi1-todolist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TO DO LIST",
   "main": "index.js",
   "type": "module",
